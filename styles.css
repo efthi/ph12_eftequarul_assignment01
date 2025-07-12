@@ -69,7 +69,6 @@ header{
 .action-center{
     display: flex;
     justify-content: space-around;
-    list-style: none;
     align-items: center;
    
 }
@@ -150,7 +149,7 @@ header{
 }
       
 .star-ico{
-
+    margin: 20px 0px 20px 0px;
 }
          
 .review-title{
@@ -160,14 +159,18 @@ header{
      
 .review-info{
     font-size: small;
+   
     
 }
-      
+     
+.review-ico{
+    border-radius: 50%;
+}
 .review-name{
-
+    display: inline;
 }
 .review-date{
-
+    display: inline;
 }
 
 .focus {
