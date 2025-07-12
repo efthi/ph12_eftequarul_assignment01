@@ -191,9 +191,10 @@ header{
 
 .contact-headline{
     font-family: Raleway, Georgia, 'Times New Roman', Times, serif;
-    font-size: 97px;
-    width: 60%;
+    font-size: 87px;
+    width: 50%;
     color: #252432;
+    
 }
 
 .form-style label{
@@ -201,11 +202,23 @@ header{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #252432;
     line-height: 1.5;
+   
+    
+}
+
+.form-style input{
+    resize: vertical;
+    min-width: 300px;
+    border-radius: 5px;
+    line-height: 2.5;
+    
 }
 
 textarea {
     resize: vertical;
     min-height: 120px;
+    border-radius: 5px;
+    min-width: 300px;
 }
 
 .form-style button{
@@ -220,6 +233,7 @@ textarea {
     font-size: 100;
     font-weight: 500;
     cursor: pointer;
+    margin-top: 5px;
     transition: all 0.3s ease;
     
 }
