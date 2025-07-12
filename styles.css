@@ -1,7 +1,10 @@
 /*
 Cascading Style sheet File
 */
-
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 
 /* Header Section */
@@ -10,6 +13,7 @@ header{
     height:698px;
     width: 1440px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .header-content{
