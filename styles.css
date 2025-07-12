@@ -139,6 +139,7 @@ header{
 .review-container{
     display: flex;
     justify-content: center;
+    
 }
 .review-data {
     display: inline-block;
@@ -158,7 +159,7 @@ header{
      
 .review-info{
     font-size: small;
-    overflow-wrap: break-word;
+    
 }
       
 .review-name{
@@ -196,4 +197,19 @@ header{
 .form-style{
     width: 20%;
     
+}
+
+
+.footer-logo{
+    text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    font-weight:800;
+    text-transform: uppercase;
+    text-decoration: double;
+    text-decoration-thickness: 500;
+    color: #6366f1;
+}
+.footer-text{
+    text-align: center;
 }
