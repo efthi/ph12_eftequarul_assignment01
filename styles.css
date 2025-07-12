@@ -87,3 +87,21 @@ header{
 .action-center img{
     border-radius: 35px;
 }
+
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color: #f5f8ff;
+}
+
+.contact-headline{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #252432 ;
+}
+
+.form-style{
+    width: 45%;
+}
