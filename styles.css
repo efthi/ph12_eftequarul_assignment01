@@ -125,6 +125,59 @@ header{
     color: #8D8E99 ;
 }
 
+
+.user-review{
+   
+}
+.user-review-headline {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding: 25px;
+    text-align: center;
+}
+
+.review-container{
+    display: flex;
+    justify-content: center;
+}
+.review-data {
+    display: inline-block;
+    border: 5px #f5f8ff solid;
+    
+   
+}
+      
+.star-ico{
+
+}
+         
+.review-title{
+    font-size: medium;
+    
+}
+     
+.review-info{
+    font-size: small;
+    overflow-wrap: break-word;
+}
+      
+.review-name{
+
+}
+.review-date{
+
+}
+
+.focus {
+    display: block;
+   text-align: center;
+}
+
+.focus img{
+    border-radius: 35px;
+    margin-top: 10px;
+}
+
 .contact-form {
     display: flex;
     justify-content:space-around;
