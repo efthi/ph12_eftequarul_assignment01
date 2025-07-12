@@ -1,0 +1,40 @@
+/*
+Cascading Style sheet File
+*/
+
+
+/* Header Section */
+header{
+    background-image:url(./Assets/Hero-bg.png);
+}
+
+.header-content{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+     font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration-thickness: bold;
+    color: #6366f1;
+           
+}
+.btn {
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+.header-text {
+    display: flex;
+    align-items:;
+}
