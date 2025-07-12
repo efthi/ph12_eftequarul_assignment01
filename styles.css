@@ -58,7 +58,7 @@ header{
     background: #6366f1;
     color: white;
     border: none;
-     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
@@ -126,12 +126,9 @@ header{
 }
 
 
-.user-review{
-   
-}
 .user-review-headline {
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+   font-family:Raleway, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
     padding: 25px;
     text-align: center;
 }
@@ -139,6 +136,8 @@ header{
 .review-container{
     display: flex;
     justify-content: center;
+    
+ 
     
 }
 .review-data {
@@ -158,24 +157,44 @@ header{
 }
      
 .review-info{
-    font-size: small;
-   
-    
+    font-size: small; 
 }
-     
+    
+.review-user{
+    display: inline-block;
+}
+
 .review-ico{
     border-radius: 50%;
+    
 }
+
 .review-name{
-    display: inline;
+  display: block;
+  color: #757575;
 }
-.review-date{
-    display: inline;
+
+.review-date {
+    display: block;
+    color: #b3b3b3;
 }
+
+
 
 .focus {
     display: block;
-   text-align: center;
+    text-align: center;
+}
+
+.focus-headline{
+    font-family: Raleway, Georgia, 'Times New Roman', Times, serif;    
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.focus-line{
+    font-size: 15px;
+    color: #808080;
 }
 
 .focus img{
