@@ -182,21 +182,45 @@ header{
 
 .contact-form {
     display: flex;
-    justify-content:space-around;
-    list-style: none;
+    justify-content:center;
     align-items: center;
     background-color: #f5f8ff;
+    height: 600px;
 
 }
 
 .contact-headline{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 36px;
-    color: #252432 ;
+    font-family: Raleway, Georgia, 'Times New Roman', Times, serif;
+    font-size: 97px;
+    width: 60%;
+    color: #252432;
 }
 
-.form-style{
-    width: 20%;
+.form-style label{
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #252432;
+    line-height: 1.5;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-style button{
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     width: 100%;
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
     
 }
 
